@@ -1,8 +1,8 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-url: http://yinghang.github.io
+url: https://yinghang.github.io
 title: Ying-Hang's Blog
-tagline: Tech, FInance & Sports
-description: Personal about Tech, FInance & Sports
+tagline: Tech, Finance & Sports
+description: Personal about Tech, Finance & Sports
 paginate: 5
