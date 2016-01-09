@@ -7,13 +7,13 @@ After upgrading to El Capitan, I ran into an issue with Homebrew while I was try
 
     /usr/local/bin is not writable....blah
 
-Naturally, I went on Google and expected to fix it in couple of minutes just like any other problems. But, after looking at various suggestions and trying all the fixes & solutions that I could find, I still was not successful at solving the problem. 
+Naturally, I went on Google and expected to fix it in couple of minutes just like any other problems. But, after looking at various suggestions and trying all the fixes & solutions that I could find, I was still not successful at solving the problem. 
 
 The fixes that I tried were such as:
 
 * Fixing the permissions by running:
 
-    sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local
+      sudo chflags norestricted /usr/local && sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local
 
 
 * Rebooting into recovery mode and then disabling SIP
