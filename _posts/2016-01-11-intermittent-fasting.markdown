@@ -1,5 +1,5 @@
 ---
 published: false
-title: Intermittent Fasting - Is It For Me?
+title: Fasted Workout
 layout: post
 ---
