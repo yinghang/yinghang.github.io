@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Is China Ded?
 layout: post
 ---
