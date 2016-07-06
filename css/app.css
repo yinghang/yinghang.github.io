@@ -57,7 +57,7 @@ h3{
 
 .insta:hover {
    background-image: url('../assets/instagramb.svg');
-   background-size: cover;
+   background-size: 24px;
 }
 
 .google {
@@ -70,7 +70,7 @@ h3{
 
 .google:hover {
    background-image: url('../assets/googleb.svg');
-   background-size: cover;
+   background-size: 24px;
 }
 
 .github {
@@ -83,7 +83,7 @@ h3{
 
 .github:hover {
 	background: url('../assets/githubb.svg');
-	background-size: cover;
+	background-size: 24px;
 }
 
 .twitter {
