@@ -1,38 +1,41 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
-
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ying Hang's Homepage</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row align-middle align-center center-container">
+      <div class="columns text-center center-panel small-10 medium-7 large-6">
+        <img src="assets/propic.png" id="propic">
+        <h1>YING HANG ENG</h1>
+        <h3>Sports fan, Fitness obsessed, Tech nerd, <br />Finance geek, Avid traveller</h3>
+        <div class="columns text-center description-panel small-12">
+          <p>Hi I'm a full-stack developer and finance enthusiast who is based in Boston. Please don't hesitate to reach out to me below!</p>
+        </div>
+        <div class="row">
+          <div class="small-3 columns">
+            <a href="http://instagram.com/eyinghang" class="insta"></a>
+          </div>
+          <div class="small-3 columns">
+            <a href="mailto:eyinghang@gmail.com" class="google"></a>
+          </div>
+          <div class="small-3 columns">
+            <a href="http://github.com/yinghang" class="github"></a>
+          </div>
+          <div class="small-3 columns">
+            <a href="http://twitter.com/yinghang" class="twitter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
