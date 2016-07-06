@@ -83,7 +83,7 @@ h3{
 
 .github:hover {
 	background: url('../assets/githubb.svg');
-	background-size: 24px;
+	background-size: cover;
 }
 
 .twitter {
