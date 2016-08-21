@@ -82,8 +82,8 @@ h3{
 }
 
 .github:hover {
-	background: url('../assets/githubb.svg');
-	background-size: cover;
+	background-image: url('../assets/githubb.svg');
+	background-size: 24px;
 }
 
 .twitter {
@@ -96,5 +96,5 @@ h3{
 
 .twitter:hover {
 	background-image: url('../assets/twitterb.svg');
-	background-size: cover;
+	background-size: 24px;
 }
