@@ -65,12 +65,13 @@ h3{
 	height:25px;
 	display:block;
 	margin:0 auto;
-	background:transparent url('../assets/google.svg') center top no-repeat;
+	background-image: url('../assets/google.svg');
+	background-size: 25px;
 }
 
 .google:hover {
    background-image: url('../assets/googleb.svg');
-   background-size: 24px;
+   background-size: 25px;
 }
 
 .github {
@@ -78,12 +79,13 @@ h3{
 	height:25px;
 	display:block;
 	margin:0 auto;
-	background:transparent url('../assets/github.svg') center top no-repeat;
+	background-image: url('../assets/github.svg');
+	background-size: 25px;
 }
 
 .github:hover {
 	background-image: url('../assets/githubb.svg');
-	background-size: 24px;
+	background-size: 25px;
 }
 
 .twitter {
@@ -91,10 +93,25 @@ h3{
 	height:25px;
 	display:block;
 	margin:0 auto;
-	background:transparent url('../assets/twitter.svg') center top no-repeat;
+	background-image: url('../assets/twitter.svg');
+	background-size: 25px;
 }
 
 .twitter:hover {
 	background-image: url('../assets/twitterb.svg');
+	background-size: 25px;
+}
+
+.blog {
+	width: 25px;
+	height:25px;
+	display:block;
+	margin:0 auto;
+	background-image: url('../assets/blog.svg');
+	background-size: 25px;
+}
+
+.blog:hover {
+	background-image: url('../assets/blogb.svg');
 	background-size: 25px;
 }
